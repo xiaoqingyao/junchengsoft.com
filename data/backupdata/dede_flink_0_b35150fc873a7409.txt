@@ -1,0 +1,6 @@
+INSERT INTO `dede_flink` VALUES('10','1','http://www.mobanxiu.cn/','织梦模板','','','','1504511299','1','2');
+INSERT INTO `dede_flink` VALUES('12','1','http://www.mobanxiu.cn/','爱特','','','','1504511352','1','2');
+INSERT INTO `dede_flink` VALUES('11','1','http://www.mobanxiu.cn/','创业找项目','','','','1504511312','1','2');
+INSERT INTO `dede_flink` VALUES('13','1','http://www.mobanxiu.cn/','掌柜子','','','','1504511365','1','2');
+INSERT INTO `dede_flink` VALUES('14','1','http://www.mobanxiu.cn/','织梦主机','','','','1504511373','1','2');
+INSERT INTO `dede_flink` VALUES('15','1','http://www.mobanxiu.cn/','建站素材','','','','1504511445','1','2');

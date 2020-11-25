@@ -1,0 +1,1 @@
+<li class="joint-bin"> <a title="[field:title/]"> <img class="swiper-lazy" data-src="[field:picname/]" alt="[field:title/]"> </a> </li>

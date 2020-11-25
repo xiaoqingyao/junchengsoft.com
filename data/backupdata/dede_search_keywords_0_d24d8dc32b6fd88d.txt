@@ -1,0 +1,9 @@
+INSERT INTO `dede_search_keywords` VALUES('1','请输入搜索内容','请输入搜索内容 内容 搜索 输入','20','0','1499219116','0','0');
+INSERT INTO `dede_search_keywords` VALUES('2','请输入搜索内容12','请输入搜索内容12 内容 搜索 输入','1','0','1477384881','0','0');
+INSERT INTO `dede_search_keywords` VALUES('3','as','as','6','1','1495680549','0','0');
+INSERT INTO `dede_search_keywords` VALUES('4','请输入搜索内容gh','请输入搜索内容gh 内容 搜索 输入','1','0','1484470180','0','0');
+INSERT INTO `dede_search_keywords` VALUES('5','假如','假如','1','1','1499852033','0','0');
+INSERT INTO `dede_search_keywords` VALUES('6','问题','问题','16','2','1504601955','0','0');
+INSERT INTO `dede_search_keywords` VALUES('7','垃圾','垃圾','1','3','1499914702','0','0');
+INSERT INTO `dede_search_keywords` VALUES('8','星巴克','星巴克 巴克','1','3','1504600040','0','0');
+INSERT INTO `dede_search_keywords` VALUES('9','法律','法律','2','1','1504601337','0','0');

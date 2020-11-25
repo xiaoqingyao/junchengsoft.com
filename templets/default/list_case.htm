@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="renderer" content="webkit">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="generator" content="DEDECMS  5.7"  data-variable="/muban/M1156008/328/,cn,102,,5,M1156008" />
+<link rel="stylesheet" href="/skin/css/aitecms.css">
+<link rel="stylesheet" href="/skin/css/font-awesome.min.css">
+<!--[if IE 9]>
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-1.css">
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-2.css">
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-3.css">
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-4.css">
+<![endif]-->
+<!--[if lt IE 10]>
+<script src="/skin/js/media.match.min.js"></script>
+<script src="/skin/js/respond.min.js"></script>
+<script src="/skin/js/classlist.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="active">
+<header role="heading" class="active"> {dede:include filename="head.htm"/} </header>
+<section role="main" class="subpage active">
+  <div class="main-box">
+    <div class="sidebar-header ">
+      <div class="sidebar-icon active"> <i class="fa fa-arrow-left"></i> <i class="fa fa-th-list"></i> </div>
+      <div class="sidebar-nav">
+        <ol>
+          全部
+        </ol>
+        <ul>
+          {dede:channel type='son' row='6' currentstyle="
+          <li class='active'><a href='~typelink~' title='~typename~' class='active'>~typename~</a></li>
+          "}
+          <li><a href="[field:typeurl/]" title="[field:typename/]" class="">[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </div>
+      <div class="sidebar-search">
+        <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+          <input type="hidden" name="kwtype" value="0" />
+          <input type="input" name="q" class="searchword" placeholder="search" />
+          <input type="submit" class="hidden" value=" " />
+          <i class="fa fa-search"></i>
+        </form>
+      </div>
+    </div>
+    <div class="met-img animsition">
+      <div class="container-fluid">
+        <div class="row">
+          <ul class="blocks-100 blocks-sm-2 blocks-md-3 blocks-xlg-4 no-space met-page-ajax" data-scale='0.66666666666667'>
+            {dede:list pagesize ='12' infolen='120'}
+            <li class="widget ">
+              <div class="cover overlay overlay-hover"> <img class="cover-image overlay-scale" src="[field:litpic/]" alt=" [field:title/]" height="200px" style='height:200px;'/>
+                <div class="overlay-panel overlay-fade overlay-background overlay-background-fixed text-center vertical-align">
+                  <div class="vertical-align-middle">
+                    <button type="button" class="btn btn-outline btn-inverse met-img-showbtn">
+                    <a href="[field:arcurl/]">浏览</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="cover-title">
+                <h3>[field:title/]</h3>
+                <p> [field:infos/]... </p>
+              </div>
+            </li>
+            {/dede:list}
+          </ul>
+          <div class="hide"> </div>
+          <div class="pagination-wrapper">
+            <div class="pagination"> {dede:pagelist listsize='5' listitem='index,end,pre,next,pageno'/} </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-icon btn-primary btn-squared met-scroll-top hide"> <i class="icon wb-chevron-up" aria-hidden="true"></i> </button>
+    <script src="/skin/js/aitecms.js"></script> 
+  </div>
+  <footer class="none">
+    <p>{dede:global.cfg_powerby/} </p>
+  </footer>
+</section>
+</body>
+</html>

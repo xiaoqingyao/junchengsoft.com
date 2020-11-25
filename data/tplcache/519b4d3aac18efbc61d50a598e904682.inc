@@ -1,0 +1,1 @@
+<li> <a href="[field:arcurl/]" title="[field:title/]" target='_self'> <img  data-original="[field:litpic/]" title="[field:title/]" > <span>[field:title/]</span> <font><i class="fa fa-clock-o"></i> [field:pubdate function="MyDate('Y-m-d',@me)"/]</font> </a> </li>

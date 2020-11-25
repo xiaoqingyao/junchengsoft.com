@@ -1,0 +1,1 @@
+INSERT INTO `dede_admin` VALUES('1','10','admin','d6f81b794976d8ddd89e','admin','模板秀','80044685@qq.com','','1524624012','115.48.101.37');

@@ -1,0 +1,35 @@
+<div class="head-box">
+  <div class="head-top">
+    <div class="logo-box"> <a href="/" title="{dede:global.cfg_company/}"> <img src="/skin/images/1480412957.png" title="{dede:global.cfg_company/}" alt="{dede:global.cfg_company/}"> </a> </div>
+    <div class="jodo-box">
+      <p><img src="/skin/images/weixin.jpg" alt="扫一扫微信二维码"/></p>
+      <p>扫一扫微信二维码 <em class="fa fa-mobile-phone"></em></p>
+    </div>
+  </div>
+  <div class="nav-cut">
+    <ul>
+      <li {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='nav1 active' ":@me="";{/dede:field}><a href="/" title="精彩首页">精彩首页</a></li>
+      {dede:channelartlist row=6 typeid='top' currentstyle='nav1 active'}
+      <li class="{dede:field.currentstyle/}"> <a href="{dede:field name='typeurl'/}"  title="{dede:field name='typename'/}" data-alert="全部">{dede:field name='typename'/}</a>
+        <ul>
+          {dede:channel type='son' noself='true'}
+          <li class="nav2"><a href="[field:typelink/]" data-alert="全部">[field:typename/]</a></li>
+          {/dede:channel}
+        </ul>
+      </li>
+      {/dede:channelartlist}
+      <li class="background"></li>
+    </ul>
+  </div>
+  <div class="head-bottom">
+    <div class="foto-box">
+      <div class="social-box"> <a href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qqa/}&site=qq&menu=yes" rel="nofollow" target="_blank"> <i class="fa fa-qq"></i> </a> <a href="" rel="nofollow" target="_blank"><i class="fa fa-weibo"></i></a> <a id="met-weixin"><i class="fa fa-weixin"></i></a>
+        <div id="met-weixin-content" class="hide">
+          <div class="text-center met-weixin-img"><img src="/skin/images/weixin.jpg" /></div>
+        </div>
+      </div>
+      <div class="foto-cut">高端定制，品牌设计</div>
+      <div class="powered_by_metinfo"> 品牌网络出品 </div>
+    </div>
+  </div>
+</div>

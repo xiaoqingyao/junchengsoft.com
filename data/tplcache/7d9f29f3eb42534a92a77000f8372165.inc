@@ -1,0 +1,1 @@
+<p><a href="[field:typeurl/]" title="[field:typename/]">more</a></p>

@@ -1,0 +1,94 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="renderer" content="webkit">
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<meta name="generator" content="DEDECMS  5.7"  data-variable="/muban/M1156008/328/,cn,99,99,1,M1156008" />
+<link rel="stylesheet" href="/skin/css/aitecms.css">
+<link rel="stylesheet" href="/skin/css/font-awesome.min.css">
+<!--[if IE 9]>
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-1.css">
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-2.css">
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-3.css">
+<link rel="stylesheet" href="/skin/css/aitecms-ie9-4.css">
+<![endif]-->
+<!--[if lt IE 10]>
+<script src="/skin/js/media.match.min.js"></script>
+<script src="/skin/js/respond.min.js"></script>
+<script src="/skin/js/classlist.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body class="active">
+<header role="heading" class="active"> {dede:include filename="head.htm"/} </header>
+<section role="main" class="subpage active">
+  <div class="main-box">
+    <div class="banner-content">
+      <div class="met-banner fixedheight" data-height="450|350|250">
+        <div class="slick-slide"> <img class="cover-image" src="/skin/images/1481422846.jpg" srcset='/skin/images/1481422846.jpg' alt=""> </div>
+      </div>
+    </div>
+    <div class="sidebar-header ">
+      <div class="sidebar-icon active"> <i class="fa fa-arrow-left"></i> <i class="fa fa-th-list"></i> </div>
+      <div class="sidebar-nav">
+        <ol>
+          全部
+        </ol>
+        <ul>
+          <li class="active"><a href="{dede:field.typeurl/}"  title="{dede:field.typename/}">{dede:field.typename/}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="show-box">
+      <div class="show-title">关于我们</div>
+      <div> {dede:field.content/}
+        <p>&nbsp;</p>
+        <p style="color:#fff;width:180px;font-size:17px;line-height:40px;text-align:center;background:#2cc0a7;">我们能做什么？</p>
+        <p style="color:#888;font-size:18px;margin-bottom:40px;">我们提供的产品解决方案 &gt;&gt;</p>
+        <div class="row"> {dede:type typeid='6'}
+          <div class="col-lg-4 col-sm-6"> <img class="imgload" style="height:200px;" data-original="/skin/images/about1.jpg" width="100%"/ alt="[field:typename/]">
+            <p style="text-align:center;font-size:16px;margin:5px 0 30px 0;"><span style="color:#2cc0a7">01&nbsp;</span>[field:typename/]</p>
+          </div>
+          {/dede:type} 
+          {dede:type typeid='7'}
+          <div class="col-lg-4 col-sm-6"><img class="imgload" style="height:200px;" data-original="/skin/images/about2.jpg" width="100%"/ alt="[field:typename/]">
+            <p style="text-align:center;font-size:16px;margin:5px 0 30px 0;"><span style="color:#2cc0a7">02&nbsp;</span>[field:typename/]</p>
+          </div>
+          {/dede:type}
+          {dede:type typeid='8'}
+          <div class="col-lg-4 col-sm-6"><img class="imgload" style="height:200px;" data-original="/skin/images/about3.jpg" width="100%"/ alt="[field:typename/]">
+            <p style="text-align:center;font-size:16px;margin:5px 0 30px 0;"><span style="color:#2cc0a7">03&nbsp;</span>[field:typename/]</p>
+          </div>
+          {/dede:type}
+          {dede:type typeid='9'}
+          <div class="col-lg-4 col-sm-6"><img class="imgload" style="height:200px;" data-original="/skin/images/about4.jpg" width="100%"/ alt="[field:typename/]">
+            <p style="text-align:center;font-size:16px;margin:5px 0 30px 0;"><span style="color:#2cc0a7">04&nbsp;</span>[field:typename/]</p>
+          </div>
+          {/dede:type}
+          {dede:type typeid='20'}
+          <div class="col-lg-4 col-sm-6"><img class="imgload" style="height:200px;" data-original="/skin/images/about5.jpg" width="100%"/ alt="[field:typename/]">
+            <p style="text-align:center;font-size:16px;margin:5px 0 30px 0;"><span style="color:#2cc0a7">05&nbsp;</span>[field:typename/]</p>
+          </div>
+          {/dede:type}
+          {dede:type typeid='21'}
+          <div class="col-lg-4 col-sm-6"><img class="imgload" style="height:200px;" data-original="/skin/images/about6.jpg" width="100%"/ alt="[field:typename/]">
+            <p style="text-align:center;font-size:16px;margin:5px 0 30px 0;"><span style="color:#2cc0a7">06&nbsp;</span>[field:typename/]</p>
+          </div>
+          {/dede:type} </div>
+      </div>
+    </div>
+    <button type="button" class="btn btn-icon btn-primary btn-squared met-scroll-top hide"> <i class="icon wb-chevron-up" aria-hidden="true"></i> </button>
+    <script src="/skin/js/aitecms.js"></script> 
+  </div>
+  <footer >
+    <p>{dede:global.cfg_powerby/} </p>
+  </footer>
+</section>
+</body>
+</html>
